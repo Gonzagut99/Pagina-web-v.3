@@ -1,0 +1,240 @@
+/*barra de busqueda*/
+.flexsearch--wrapper {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+	overflow: hidden;
+	background: transparent;
+	margin: 0;
+	position: static;
+}
+	
+.flexsearch--form {
+	overflow: hidden;
+	position: relative;
+}
+	
+.flexsearch--input-wrapper {
+	padding: 0 66px 0 0; /* Right padding for submit button width */
+	overflow: hidden;
+}
+
+.flexsearch--input {
+  width: 100%;
+}
+
+/***********************
+ * Configurable Styles *
+ ***********************/
+.flexsearch {
+   
+    position : absolute ;
+	top : 50px;
+	left : 750px;
+	height :100px;
+	width : 300px ;
+}
+
+.flexsearch--input {
+  
+    -webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+ 	height: 35px;
+  padding: 0 40px 0 15px;
+	border-color: #888;
+  border-radius: 35px; /* (height/2) + border-width */
+  border-style: solid;
+	border-width: 5px;
+  margin-top: 26px;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+	font-size: 26px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+	
+.flexsearch--submit {
+  position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 40px;
+	height: 60px;
+  padding: 0;
+  border: none;
+	margin-top: 18px; /* margin-top + border-width */
+  margin-right: 5px; /* border-width */
+	background: transparent;
+  color: #888;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.flexsearch--input:focus {
+  outline: none;
+  border-color: #333;
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+ 	color: #333; 
+}
+
+.flexsearch--submit:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	color: #888;  
+}
+
+input:-moz-placeholder {
+  color: #888
+}
+/*fin barra de busqueda*/
+
+/*estilos encabezado*/
+.titulo{
+    margin-left: 150px;
+    margin-top: 50px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	
+}
+.borde{
+	border: 3px black solid;
+	margin-top: 20px;
+	height: 1900px;
+	background-color:white ;
+
+}
+body{
+	background-image: url(https://static.vecteezy.com/system/resources/previews/002/382/282/non_2x/flat-school-supplies-background-free-vector.jpg);
+}
+
+.carrito{
+	width: 50px;
+	position: absolute;
+	top: 70px;
+	left: 76%;
+}
+.tienda{
+	width: 50px;
+	position: absolute;
+	top: 70px;
+	left: 81%;
+
+}
+.perfil{
+	width: 50px;
+	position: absolute;
+	top: 70px;
+	left: 86%;
+}
+hr{
+	padding: 0%;
+	margin-left: 78px;
+	margin-right: 80px;}
+
+/*estilos encabezado*/
+
+/*estilos items*/
+.mgn{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.descutext{
+	font-weight: normal;
+	text-decoration: line-through;
+}
+/*fin estilos items*/
+/*discount tags*/
+/*=== Import Raleway fonts ===*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+#content{
+	margin:10px auto;
+  background:transparent;
+  height:200px;
+	width:70%;
+  /*border-radius*/
+  -webkit-border-radius:8px;
+	 -moz-border-radius:8px;
+		  border-radius:8px;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,.1);
+	 -moz-box-shadow:0 1px 0 rgba(0,0,0,.1);
+		  box-shadow:0 1px 0 rgba(0,0,0,.1);
+  }
+  
+  
+  .discount-label {
+   padding:8px; 
+   position:relative;
+	float:left;
+	margin-top:35px;
+	 margin-left: 380px;
+  width:80px;
+  height: 40px;
+  -webkit-border-radius:0 4px 0 4px;
+  -moz-border-radius:0 4px 0 4px;
+  border-radius:0 4px 4px 0;
+  
+  }
+  
+  .discount-label:after { 
+  
+	  right: 100%; 
+	  border: solid transparent; content: " "; 
+	  height: 0; 
+	  width: 0; 
+	  position: absolute;
+	  border-color: rgba(136, 183, 213, 0);
+	   
+	  border-width: 20px; 
+	  top: 50%; 
+	  margin-top: -20px;} 
+  
+	.discount-label:before {
+	content: '';
+	z-index: 2;
+	position: absolute;
+	top: 42%;
+	right: 100%;
+	width: 7px;
+	height: 7px;
+	opacity: .95;
+	background: #ffffff;
+	border-radius: 7px;
+	-webkit-box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+	box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+  
+  }
+  
+  
+	.discount-label span {
+	color:#ffffff;
+	font-size:20px;
+  	text-align:center;
+	font-family:"Raleway",Helvetica;
+  
+  }
+  
+  
+  .red{ 
+  background-color:#E80707; 
+  }
+  .red:after{ 
+	border-right-color: #E80707;
+	  
+	}
+  
+/*discount tags*/
+/*fin estilos items*/
+
+/*estilos footer*/
+.lineafooter{
+
+    margin-top: 60px;
+    margin-right:100px ;
+  }
+/*fin estilos footer*/
